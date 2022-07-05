@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Peter Rawlings">
+    <meta name="description" content="A technical documentation page for html, describing what it is, and how it's used">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML: Technical documentation</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>
+        <h1>HTML explained</h1>
+      </header>
+      <ul>
+        <li><a href="#introduction_to_html" class="nav-link">Introduction to HTML</a></li>
+        <li><a href="#html_editors" class="nav-link">HTML editors</a></li>
+        <li><a href="#elements" class="nav-link">Elements</a></li>
+        <li><a href="#attributes" class="nav-link">Attributes</a></li>
+        <li><a href="#layout" class="nav-link">Layout</a></li>
+        <li><a href="#comments" class="nav-link">Comments</a></li>
+      </ul>
+    </nav>    
+    <main id="main-doc">
+      <section class="main-section" id="introduction_to_html">
+        <header>
+          <h2>Introduction to HTML</h2>
+        </header>
+        <p>HTML stands for Hyper Text Markup Language. It is the primary language used to create web pages, 
+          and is read by web browsers in order to display specific content, defined by the code in the HTML. 
+          It was invented in 1991 by a man named Tim Berners-Lee, who was also responsible for the invention 
+          of the World Wide Web itself, in 1989.
+        </p>
+        <p>At its heart, HTML is a fairly simple language made up of elements, which can be applied to pieces 
+          of text to give them different meaning in a document (Is it a paragraph? Is it a bulleted list? Is 
+          it part of a table?), structure a document into logical sections (Does it have a header? Three 
+          columns of content? A navigation menu?), and embed content such as images and videos into a page. 
+        </p>
+        <p>In order to write HTML documents, all you need is a computer, and a simple text editor.
+        </p>
+      </section>      
+      <section class="main-section" id="html_editors">
+        <header>
+          <h2>HTML editors</h2>
+        </header>
+        <p>Web pages can be created and modified by using professional HTML editors, however, all you really 
+          need is a text editor such as Notepad for PC, or TextEdit for Mac. Both of these text editors can 
+          be found pre-installed on their associated devices.
+        </p>
+        <p>If you would like to become more involved with writing HTML code, and other computer languages, 
+          there are plenty of very good dedicated code writing programs to choose from. These include:
+        </p>
+        <ul id="editors">
+          <li>Visual Studio Code</li>
+          <li>Atom</li>
+          <li>Sublime Text</li>
+          <li>Notepad++</li>
+          <li>Vim</li>
+        </ul>
+      </section>     
+      <section class="main-section" id="elements">
+        <header>
+          <h2>Elements</h2>
+        </header>
+        <p>An HTML element is defined by a start tag, some content, and an end tag. The tag types are specific 
+          to the nature of the content between them, and are formatted in a particular way. A start tag begins 
+          with a "less than" symbol (&lt;), and ends with a "greater than" symbol (&gt;). An end tag has the same 
+          format, but includes a forward slash (/) after the tag name, and before the (&gt;) symbol.
+        </p>
+        <p>Elements are categorised by the type of tags that are used to define their content. This categorisation 
+          can then be used to style the web page to virtually any specification, using tools such as Cascading 
+          Style Sheets (CSS). Some of the main tags that you will use within the main content of an HTML document 
+          are as follows:
+        </p>
+        <ul id="tag-list">
+          <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>: These tags classify their associated elements 
+            as headings, with <code>&lt;h1&gt;</code> being the most important (usually the main heading), down 
+            to <code>&lt;h6&gt;</code> being the least important sub-headings.
+          </li>
+          <li><code>&lt;p&gt;</code>: This tag is used to group blocks of content into paragrapghs, so it is 
+            distinguishable from headings, other paragraghs, and other elements.
+          </li>
+          <li><code>&lt;body&gt;</code>: This tag is used to classify an element as the document's main body, 
+            which contains all of the visible content of the document. There can only be one of these elements 
+            per HTML document.
+          </li>
+          <li><code>&lt;main&gt;</code>: This HTML tag represents the dominant content of the page of a document. 
+            The main content area consists of content that is directly related to or expands upon the central topic 
+            of a document, or the central functionality of an application.
+          </li>
+        </ul>
+      </section>      
+      <section class="main-section" id="attributes">
+        <header>
+          <h2>Attributes</h2>
+        </header>
+        <p>Elements in HTML can have attributes; these are additional values that configure the elements or adjust 
+          their behavior in various ways to meet the criteria the users want. Attributes are always specified within 
+          the start tag, and they usually come in name and value pairs like so: <code>name="value"</code>.
+        </p>
+        <p>Some very common, and important, attributes used in HTML are:
+        </p>
+        <ul>
+          <li><code>id</code>: Identifies a unique element. It can be used by CSS to reference that element and can 
+            also be used by scripting languages to reference the element. Links can be made directly to an element 
+            with a specific id. The value of the id attribute must be unique.
+          </li>
+          <li><code>class</code>: Used to reference elements with CSS. Unlike the <code>id</code> attribute, any 
+            number of elements can have the same <code>class</code> value.
+          </li>
+          <li><code>title</code>: The title attribute specifies extra information about an element. The information 
+            is most often shown as a tooltip text when the mouse moves over the element. The title attribute can be 
+            used on any HTML element.
+          </li>   
+          <li><code>style</code>: This attribute specifies an inline style for an element, so can therefore be used 
+            to apply alternative presentation to the default style. It will override any style set elsewhere, such 
+            as in the <code>&lt;style&gt;</code> tag, and external stylesheets.
+          </li>
+        </ul>
+      </section>      
+      <section class="main-section" id="layout">
+        <header>
+          <h2>Layout</h2>
+        </header>
+        <p>HTML code has a few important rules which should be applied to all documents, so that web browsers can 
+          read them in the context they were intended.
+        </p>
+        <p>Firstly, all html files should begin with a document type declaration, which helps browsers display web 
+          pages correctly. For the current HTML5 language, the document type should be declared like this: 
+          <code>&lt;!DOCTYPE html&gt;</code>. The HTML document types are backwards compatible, meaning, when you 
+          declare a document as HTML5, it will still be compatible with older versions. Although it looks like one, 
+          document type is not a tag, it is a declaration, and therefore it doesn't need a closing tag at the end of 
+          a document, just the one at the very beginning.
+        </p>
+        <p>The next important rule is to wrap the whole document in <code>&lt;html&gt;</code> tags. These are tags, 
+          so will require a closing tag at the end of the document: <code>&lt;/html&gt;</code>. This represents the 
+          root of the document that contains everything except the document type declaration. The <code>lang</code> 
+          attribute should always be used inside the opening tag, in order to specify the language in which the page 
+          is intended.
+        </p>
+        <p>Following the HTML tags should be the <code>&lt;head&gt;</code> tags. These encapsulate specific metadata 
+          information about the page that is not displayed to the user. Examples of the type of information that is 
+          included here are: Web page title, author, description, character set, and css code or links to external 
+          stylesheets. This requires a closing tag.
+        </p>
+        <p>Finally, the last important aspect to the HTML document, is the <code>&lt;body&gt;</code> element. As 
+          mentioned above, this is used to classify the entire visible portion of an HTML document. It is important 
+          to include this element as a distinction between the non-visible <code>&lt;head&gt;</code> element, and 
+          the visible element of the document. It should also have a closing tag at the end of the visible content.
+        </p>
+      </section>      
+      <section class="main-section" id="comments">
+        <header>
+          <h2>Comments</h2>
+        </header>
+        <p>Commenting in HTML allows developers to leave notes about their code, its functionality or to indicate 
+          necessary changes for the future. Comments remain hidden from the user of a webpage, which is achieved by 
+          wrapping the desired text in a start tag <code>&lt;!--</code>, and an end tag <code>--&gt;</code>.
+        </p>
+        <p>Although comments are not imperitive to an HTML document, their mention is justified, as they are a very 
+          useful and somewhat necessary tool in understanding what previous authors of code, or indeed your previous self, 
+          were tring to achieve.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
