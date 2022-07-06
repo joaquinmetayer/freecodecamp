@@ -1,0 +1,91 @@
+*{
+    scroll-behavior: smooth; 
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    text-align: left;
+    font-size: 20px;
+}  
+#navbar > header {
+    text-align: center;
+    line-height: 20px;
+}  
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    min-width: 300px; /*Es mejor hacerlo en px que en porcentajes, se adapta mejor en este caso, pruebalo y mira */
+    border-right: solid rgb(230, 230, 230);
+}
+#navbar li {
+    list-style: none;
+    position: relative;
+    font-size: 18px;
+    width: 100%;
+    border-top: 1px solid rgb(230, 230, 230);
+    
+}
+#navbar ul {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+}
+#navbar a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+#main-doc {
+    position: absolute;
+    margin: 25px 25px 0px 325px;
+    line-height: 25px;
+}
+code{
+    font-family: monospace;
+    display: block;
+    text-align: left;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+}
+.main-section header{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0.5em 0.5em 0.5em 0em;
+}
+#fisth2{
+    padding-top: 0;
+}
+@media only screen and (max-width: 750px) {
+    #navbar ul {
+      width: 100%;
+      border-bottom: solid rgb(230, 230, 230);
+    }
+  
+    #navbar {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      max-height: 130px;
+      z-index: 1;
+      text-align: center;
+    }
+    
+    #main-doc {
+      position: relative;
+      margin: 250px 40px 60px 40px;
+    }
+  }
