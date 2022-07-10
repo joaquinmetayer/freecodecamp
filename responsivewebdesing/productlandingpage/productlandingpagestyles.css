@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+}
+#page-wrapper {
+    position: relative;
+  }
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#header{
+    background-color: #1111;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    font-weight: bold;
+    top:0;
+    color: #000;
+
+}
+#header-img{
+    width: 50px;
+    padding: 0.5rem;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    padding: 0.5rem;
+}
+nav ul li {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: block;
+}
+#soliditybig{
+    width: 100%;
+    padding-top: 75px;
+    
+}
+#description{
+    margin: 0 auto;
+    max-width: 40em;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#sssdescription{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 1em;
+}
+#texttitle {
+    font-size: 20px;
+    text-align: center;
+    padding: 1em;
+}
+#readlink{
+    padding: 1em;
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+}
+.backgroundblue{
+    background-color: #002fa7;
+    
+}
+embed{
+    filter: grayscale(100);
+    padding: 1em;
+}
+#readlink{
+
+}
+
+#prices{
+
+}
+#backblack{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+#goupdated{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2em;
+
+}
+h2{
+    font-size: 28px;
+    padding-bottom: 0.5em;
+    word-wrap: break-word;
+}
+#goupdated input[type='email'] {
+    width: 55%;
+    height: 40px;
+    padding: 0.3em;
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  
+
+#goupdated input[type='submit'] {
+
+    height: 40px;
+    border: 0;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+
+  }
+#goupdated input[type='submit']:hover {
+    color:#002fa7;
+    transition: background-color 1s;
+    cursor: pointer;
+  }
+
+
+footer{
+    background-color: #1111;
+    padding: 1em;
+    text-align: center;
+}
+footer > ul {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+footer > ul > li{
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-bottom: 1em;
+    display: block;
+
+}
+body{
+    background-color: #fff;
+}

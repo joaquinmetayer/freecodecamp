@@ -3,62 +3,89 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Learn Solidity</title>
+        <title>LSS</title>
         <link rel="stylesheet" href="./productlandingpagestyles.css" />
         <meta charset="UTF-8" />
+        <link rel="icon" type="image/png" href="https://soliditylang.org/favicon.png">
+        
     </head>
     <body>
-        <header id="header">
+        <div id="page-wrapper">
+        
+        <header id="header" class="backgray">
+           
             <div id="logo">
                 <img id="header-img" src="https://soliditylang.org/images/logo.svg">
             </div>
             <nav id="nav-bar">
                 <ul>
-                    <li class="nav-link"><a href="">About</a></li>
-                    <li class="nav-link"><a href="">Features</a></li>
-                    <li class="nav-link"><a href="">Prices</a></li>
+                    <li><a class="nav-link" href="#description">About</a></li>
+                    <li><a class="nav-link" href="#howitworks">Features</a></li>
+                    <li><a class="nav-link" href="#prices">Prices</a></li>
                 </ul>
             </nav>
+   
         </header>
-        <section id="description">
-            <h1 id="learnsolidity">Learn Solidity fast</h1>
-            <h2 id="sss">sss</h2>
-            <p id="sssdescription">Solidity in Simple Steps</p>
-            <p>Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on Ethereum.</p>
-            <iframe
+    
+        <img id="soliditybig" src="https://soliditylang.org/images/SolGray.png" >
 
+
+
+        <section id="description">
+            <h1 id="sssdescription">Learn Solidity Simple</h1>
+            <p id="texttitle" >Solidity is a statically-typed curly-braces programming language designed for developing smart contracts that run on Ethereum.</p>
+            <embed
+            id="video"
+            height="315"
+            src="https://www.youtube.com/embed/MnSmc7Hto2k"
             frameborder="0"
             allowfullscreen
-            id="video" src="https://www.youtube.com/embed/MnSmc7Hto2k"></iframe>
+            >
+            </embed>
             <p id="readlink"><a href="https://docs.soliditylang.org/en/latest/index.html#getting-started">Read Solidity docs here.</a></p>
         </section>
 
+<!----------------------------------------->
+
+        <div class="backgroundblue">
         <section id="howitworks"><!-- colocar iconos similar a este apartado de product features ( https://duckduckgo.com/?q=product+langing+page&atb=v314-1&iax=images&ia=images&iai=https%3A%2F%2Fi.pinimg.com%2F736x%2Fc5%2Ff2%2Fcb%2Fc5f2cb6ed7aaddd3a0366be563483173.jpg )-->
+            
         </section>
+        </div>
+
+<!----------------------------------------->
+
+        <div id="backblack">
+            <section id="goupdated">
+                <h2>Updated news</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+               <input
+                name="email"
+                id="email"
+                type="email"
+                placeholder="Enter your email address"
+                required
+              />
+              <input id="submit" type="submit" value="UPDATED NOW" class="boton" />
+            </form>
+            </section>
+        </div>
+
+<!----------------------------------------->
 
         <section id="prices">
         </section>
 
-        <section id="goupdated">
-            <h2>Stay in Solidity news updated here</h2>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input
-            name="email"
-            id="email"
-            type="email"
-            placeholder="Enter your email address"
-            required
-          />
-          <input id="submit" type="submit" value="Go updated" class="boton" />
-        </form>
-        </section>
+<!----------------------------------------->
+
         <footer>
             <ul>
-              <li><a href="#">Terms and conditions</a></li>
+              <li><a href="#">TyC</a></li>
               <li><a href="https://github.com/joaquinmetayer" target="_blank">GitHub</a></li>
               <li><a href="https://github.com/joaquinmetayer" target="_blank">Contact</a></li>
             </ul>
-            <span>Copyright 2022, SSS</span>
+            <span>Copyright 2022, LSS</span>
         </footer>
+    </div>
 </body>
 </html>
