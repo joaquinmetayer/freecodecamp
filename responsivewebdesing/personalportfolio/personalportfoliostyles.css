@@ -1,0 +1,126 @@
+*{
+    border: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color: #000;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100vw;
+}
+#navbar > ul {
+    display: flex;
+    list-style: none;
+}
+#navbar > ul > li > a{
+    display: inline-block;
+    padding: 1.5em 1.5em;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+#welcome-section{
+    background: linear-gradient(rgb(224, 224, 224), rgb(255, 255, 255));
+    height: 100vh;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#work{
+    background-color: #000000;
+    color: #fff;
+    padding: 4em;
+}
+#contact{
+    height: 80vh;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 3em;
+    font-weight: bold;
+}
+.title2{
+    font-size: 3em;
+}
+.title3{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.descriptiontitle{
+    font-style: italic;
+    font-size: 1.38em;
+    font-weight: bold;
+    padding: 0.5em;
+}
+#links a:hover {
+    transform: translateY(-5px);
+}
+#links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+   
+}
+.nones{
+    font-style: none;
+    font-style: normal;
+}
+#links > a {
+    text-decoration: none;
+    padding: 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+    transition: transform .5s;
+}
+footer{
+    background-color: #808080;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    font-style: italic;
+    color: white;
+    font-size: 0.85em;
+    font-weight: bold;
+}
+footer > div > p > a {
+    color: white;
+}
+footer > div {
+    max-width: 80vw;
+    padding: 2em;
+}
+
+#projects-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+  }
+  
+  #projects-grid img {
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+    padding: 0.5em;
+    border-radius: 10px;
+  }
