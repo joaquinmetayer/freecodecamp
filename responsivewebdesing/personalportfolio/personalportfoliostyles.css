@@ -25,6 +25,28 @@
     font-size: 1.25rem;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 1000px){
+    #navbar > ul > li > a{
+        padding: 1em 1em;
+        font-size: 1.25rem;
+    }
+    #projects > div > a {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 700px){
+    #projects > div > a {
+        width: 100%;
+    }
+    #links{
+        font-size: 0.75em;
+    }
+}
+
+
+    
+
 #welcome-section{
     background: linear-gradient(rgb(224, 224, 224), rgb(255, 255, 255));
     height: 100vh;
@@ -35,8 +57,8 @@
     flex-direction: column;
     text-align: center;
 }
-#work{
-    background-color: #000000;
+#projects{
+    background-color: #000;
     color: #fff;
     padding: 4em 1em 4em 1em;
 }
@@ -47,6 +69,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 .title{
     font-size: 3em;
@@ -86,7 +109,6 @@
     justify-content: center;
     align-items: center;
     padding: 0.5em;
-   
 }
 .nones{
     font-style: none;
@@ -118,7 +140,6 @@ footer > div {
     max-width: 80vw;
     padding: 2em;
 }
-
 #projects-grid {
     display: flex;
     flex-direction: row;
@@ -126,7 +147,6 @@ footer > div {
     justify-content: center;
     align-items: center;
 }
-
 #projects-grid img{
     width: 100%;
     height: 300px;
@@ -135,11 +155,9 @@ footer > div {
     border-radius: 15px;
     transition: transform .5s;
   }
-
-  #projects-grid a{
+#projects-grid a{
     width: 30%;
     height: 300px;
     object-fit: cover;
-
     transition: transform .5s;
-  }
+}
