@@ -114,13 +114,12 @@ footer > div {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 1em;
-  }
-  
+}
+ 
   #projects-grid img {
     width: 40%;
     height: 300px;
     object-fit: cover;
-    padding: 0.5em;
+    padding: 1em;
     border-radius: 10px;
   }
