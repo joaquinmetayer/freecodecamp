@@ -11,6 +11,7 @@
     justify-content: flex-end;
     position: fixed;
     width: 100vw;
+    z-index: 1;
 }
 #navbar > ul {
     display: flex;
@@ -37,7 +38,7 @@
 #work{
     background-color: #000000;
     color: #fff;
-    padding: 4em;
+    padding: 4em 1em 4em 1em;
 }
 #contact{
     height: 80vh;
@@ -61,13 +62,23 @@
     padding-bottom: 1em;
     padding-top: 1em;
 }
+.title4{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1em;
+    text-decoration: none;
+}
+.title4 > a{
+    color: #fff;
+}
 .descriptiontitle{
     font-style: italic;
     font-size: 1.38em;
     font-weight: bold;
     padding: 0.5em;
 }
-#links a:hover {
+#links a:hover , #projects-grid img:hover{
     transform: translateY(-5px);
 }
 #links{
@@ -115,11 +126,20 @@ footer > div {
     justify-content: center;
     align-items: center;
 }
- 
-  #projects-grid img {
-    width: 40%;
+
+#projects-grid img{
+    width: 100%;
     height: 300px;
     object-fit: cover;
-    padding: 1em;
-    border-radius: 10px;
+    padding: 0.5em;
+    border-radius: 15px;
+    transition: transform .5s;
+  }
+
+  #projects-grid a{
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+
+    transition: transform .5s;
   }
