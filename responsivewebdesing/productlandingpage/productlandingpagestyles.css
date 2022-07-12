@@ -56,7 +56,7 @@ nav ul li {
     max-width: 40em;
     height: auto;
     padding-top: 1em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -64,7 +64,7 @@ nav ul li {
 #sssdescription{
     font-size: 50px;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 2em;
 }
 #texttitle {
     font-size: 20px;
@@ -90,8 +90,8 @@ nav ul li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 5em;
+    padding-bottom: 5em;
     max-width: 70em;
     margin: 0 auto;
   }
@@ -174,13 +174,14 @@ footer{
     background-color: rgb(255, 255, 255);
     padding: 1em;
     text-align: center;
+    color: #000;
+    width: 100%;
 }
 footer > ul {
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
     align-items: center;
-    height: 100%;
     font-weight: bold;
     font-size: 13px;
 }
@@ -194,7 +195,7 @@ footer > ul > li{
 }
 #features{
     margin: 0 auto;
-    padding: 0em 1em 2em 1em;
+    padding: 4em 1em 4em 1em;
     color: #fff;
 }
 .left{
