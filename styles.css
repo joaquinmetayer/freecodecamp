@@ -1,60 +1,37 @@
 *{
     background-color: #1b1b32;
-    max-width: 30em;
-    margin: auto;
+    max-width: 35em;
+    margin: 0 auto;
     color: #ffff;
     font-family: Roboto Mono,monospace;
     scroll-behavior: smooth;
 }
 body{
-    margin:0;
     padding:1em;
 }
 .description{
-    font-size: 1.35em;
-    padding: 00.5em;
-    font-style: italic;
-}
-.descriptioncourse{
-    font-size: 1.25em;
-    padding: 00.5em;
+    font-size: 1.1em;
+    padding: 1em;
     font-weight: bold;
     text-align: center;
 }
-.content{
+.lista{
     padding-top: 1em;
     padding-bottom: 1em;
-    text-align: left;
+    font-size: 1.1em;
 }
-.finallyproject {
-    text-align: center;
-    padding: 1em;
-    font-size: 1.20em;
-}
+
 img{
     border-radius: 10px;
-    max-width: 100%;
+    max-width: 20em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.certification{
-    padding: 1em;
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-.certificationbox{
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-.logo{
 
-    padding: 0.5em;
-    max-width: 15em;
-}
-.seegit{
-    font-size: 1em;
+.logo{
     padding: 1em;
-    font-weight: bold;
-    text-align: center;
+    max-width: 17.5em;
 }
 .entry{
     display: flex;
@@ -63,33 +40,22 @@ img{
     flex-direction: column;
     text-align: center;
     padding-top: 2em;
-
 }
 li{
-    margin: 0.25em;
     list-style: none;
+    width: 20em;
 }
-ul{
-    margin: 0.5em;
-}
-.center{
-    text-align: center;
-    padding-bottom: 0.5em;
-}
+
 hr{
     size: 1px;
     color: #ffff;
     margin-top: 1em;
     margin-bottom: 1em;
-    width: 100%;
+    max-width: 18em;
 }
-.indice{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    font-size: 1.1em;
-    
-}
-.indicetitulo{
+
+.titulo{
     text-align: center;
     font-weight: bold;
+    padding: 0.5em;
 }
