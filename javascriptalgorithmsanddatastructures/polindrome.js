@@ -13,7 +13,6 @@ function palindromeCheck(){
     }
 }
 
-
 function palindrome(str) {
     if(str !== ''){
         let alphanumericOnly = str;
@@ -25,7 +24,7 @@ function palindrome(str) {
         return alphanumericOnly.join('') ===
         alphanumericOnly.reverse().join('');
     }else{
-        poliResult.innerHTML = 'mmm enter a input!'
+        poliResult.innerHTML = 'Mmm enter a input!'
     }
 }
 

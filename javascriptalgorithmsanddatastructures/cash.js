@@ -1,7 +1,5 @@
 // cash register
 
-/* 
-
 const checkCashRegister = (price, cash, cid) => {
   const UNIT_AMOUNT = {
     "PENNY": .01,
@@ -45,5 +43,3 @@ const checkCashRegister = (price, cash, cid) => {
   }
   return { status: "OPEN", change: changeArray};
 }
-
-*/

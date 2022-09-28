@@ -1,8 +1,11 @@
 // number validator
 
-/* 
+let inputNumber;
+let resultValidation;
+let numberResult =  document.getElementById('number-result');
 
-function telephoneCheck(str) {
+function numberCheck() {
+    inputNumber = document.getElementById('input-number').value;
     const validPatterns = [
       // 555-555-5555
       /^\d{3}-\d{3}-\d{4}$/,
@@ -25,8 +28,11 @@ function telephoneCheck(str) {
       // 1(555)555-5555
       /1\(\d{3}\)\d{3}-\d{4}/
     ];
-  
-    return validPatterns.some((pattern) => pattern.test(str));
-  }
+    resultValidation = validPatterns.some((pattern) => pattern.test(inputNumber));
+    if(resultValidation == true){
+      numberResult.innerHTML = 'Its a phone number!'
+    }else{
+      numberResult.innerHTML = 'Its NOT a phone number!'
+    }
+}
 
-*/
